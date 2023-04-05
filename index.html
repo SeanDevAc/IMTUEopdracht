@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Le Français Joyeu</title>
+</head>
+<body>
+    <nav>
+        <h1>glamping La Mirande, een droomplek in zuid Frankrijk</h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/accomodaties.html">accomodaties</a></li>
+            <li><a href="/beschikbaarheid.html">beschikbaarheid</a></li>
+            <li><a href="/omgeving.html">omgeving</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/faq.html">faq/vragen</a></li>
+            <li><a href="/info.html">info</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="overlay"></div>
+        <h1>glamping La Mirande, weg van de massa</h1>
+        <img src="img/background_frankrijk.webp" alt="Foto van ons park in frankrijk" width="500" height="400">
+    </header> 
+
+    <br>
+    <div class = "formcase">
+        <form>
+            <br>
+            <h1> Reserveringformulier </h1> <br>
+            <label for="voornaam">Voornaam</label><br>
+            <input type="text" id="voornaam" name="fname" maxlength="40" size="40"><br>
+            <label for="tussenvoegsel">Tussenvoegsel</label><br>
+            <input type="text" id="tussenvoegsel" name="fname" maxlength="10" size="10"><br>
+            <label for="achternaam">Achternaam</label><br>
+            <input type="text" id="achternaam" name="lname" maxlength="40" size="40"><br>
+
+            <label for="geslacht">Geslacht</label><br>
+            <input type="text" id="geslacht" name="fname" maxlength="10" placeholder="man/vrouw/anders" size="10"><br>
+
+            <label for="straat">Straat</label><br>
+            <input type="text" id="straat" name="fname" maxlength="40" size="40"><br>
+            <label for="huisnummer">Huisnummer</label><br>
+            <input type="text" id="huisnummer" name="lname" maxlength="10" size="10"><br>
+            <label for="postcode">Postcode</label><br>
+            <input type="text" id="postcode" name="fname" maxlength="8" size="8"><br>
+            <label for="woonplaats">Woonplaats</label><br>
+            <input type="text" id="woonplaats" name="lname" maxlength="40" size="40"><br>
+
+            <label for="telefoonnummer">Telefoonnummer</label><br>
+            <input type="text" id="telefoonnummer" name="fname" maxlength="12" size="12"><br>
+            <label for="emailadres">Emailadres</label><br>
+            <input type="text" id="emailadres" name="lname" maxlength="50" size="50"><br>
+
+
+            <label for="volwassenen">Volwassenen</label><br>
+            <input type="number" id="volwassenen" name="fname" min="1" max="3"><br>
+            <label for="kinderen">Kinderen</label><br>
+            <input type="number" id="kinderen" name="lname" min="0" max="3"><br>
+            <label for="huisdieren">Huisdieren</label><br>
+            <input type="number" id="huisdieren" name="fname" min="0" max="3"><br>
+            <label for="auto">Auto</label><br>
+            <input type="number" id="auto" name="lname" min="0" max="3"><br>
+
+            <label for="kenteken">Kenteken</label><br>
+            <input type="text" id="kenteken" name="lname" maxlength="10" size="10"><br>
+
+            <label for="soortCampingplek">soort campingplek</label><br>
+            <select id="soortCampingplek" name="soortCampingplek"  size="10">
+                <option value="optie1">optie 1</option>
+                <option value="optie2">optie 2</option>
+                <option value="optie3">optie 3</option>
+            </select><br>
+
+            <label for="aankomstDatum">aankomst datum</label><br>
+            <input type="date" id="aankomstDatum" name="aankomstDatum" min="2023-04-04" max="2025-12-31"  size="10"><br>
+            
+            <label for="vertrekDatum">vertrek datum</label><br>
+            <input type="date" id="vertrekDatum" name="vertrekDatum" min="2023-04-04" max="2025-12-31"  size="10"><br>
+
+            <label for="elektriciteit">elektriciteit</label><br>
+            <select id="elektriciteit" name="elektriciteit"  size="3">
+                <option value="ja">ja</option>
+                <option value="nee">nee</option>
+            </select><br>
+
+            <label for="stromendwater">stromend water</label><br>
+            <select id="stromendwater" name="stromendwater"  size="3">
+                <option value="ja">ja</option>
+                <option value="nee">nee</option>
+            </select><br>
+
+            <label for="interesses">interesses</label><br>
+            <input type="checkbox" id="interesses"><br>
+
+            <input type="submit" value="Submit" class="submit"><br>
+
+        </form> 
+    </div>
+</body>
+</html> 
